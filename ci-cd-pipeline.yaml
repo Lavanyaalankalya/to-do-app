@@ -16,8 +16,8 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t todolist-web:latest .
-        docker tag todolist-web:latest karthik797/todolist-web:latest
-        docker push karthik797/todolist-web:latest
+        docker tag todolist-web:latest lavanyaalankalya01/todolist-web:latest
+        docker push lavanyaalankalya01/todolist-web:latest
 
     - name: Deploy to Kubernetes
       run: |
